@@ -1,0 +1,262 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.top {
+	
+    position: relative;
+	height: 8px;
+	background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+    
+}
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: rgb(100, 100, 100);
+    background:black;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+}
+
+
+header, footer {
+width: 98%;
+background-color: rgb(15, 0, 29);
+float: left;
+
+}
+
+a {
+    color: rgb(64, 0, 124);
+    text-decoration: none;
+    transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+
+}
+
+a:active {
+    color: rgb(128, 0, 0);
+}
+
+  ::selection {background: rgb(44, 0, 0); color: rgb(0, 0, 0);}
+  ::-moz-selection {background: rgb(44, 0, 0); color: rgb(0, 0, 0);}
+
+  a:hover {
+    color: rgb(111, 0, 255);
+    text-decoration: none;
+    transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    
+}
+
+.right {
+    float: right;
+
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+    
+    height: 2px;
+}
+
+header {
+   
+    border-bottom: 2px solid ;
+    padding: 1%;
+}
+footer {
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding: 1%;
+    padding-bottom: 2%;
+
+}
+
+footer img {
+width: 10%;
+float: left;
+margin-right: 5px;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#logo {
+    font-size: 2em;
+    font-family: Comic Sans MS, sans-serif;
+    color: rgb(158, 158, 158);
+    
+}
+.contact {
+    font-size: 1.5em;
+    font-family: Comic Sans Ms, sans-serif;
+    margin-left: 20px;
+}
+
+input[type=text].field {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+hr {
+    background: linear-gradient(141deg, deeppink 0%, rebeccapurple 40%, cyan 90%);
+    display: block;
+    border: 0px;
+    height: 2px;
+    
+    padding: 0px;
+}
+
+input[type=text].field:focus {
+    border: 2px solid rgba(255, 255, 255, 0.342);
+}
+
+
+
+#page_wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, #page_wrap:after {
+    height: 10px;
+
+}
+
+#page_wrap {
+    min-height: 94%;
+    margin-bottom: -10px;
+}
+
+#menu {
+    color: #666;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+    margin-top: 7px;
+    
+}
+
+#menu hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#menuHrefs a {
+    padding: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+#menuHrefs a:hover {
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+#wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles {
+float: left;
+width: 80%;
+margin-left: 10%;
+}
+
+#wrapper #articles article {
+    float: left;
+    width: 31.33333%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-right: 2%;
+    min-height: 400px;
+
+}
+
+#wrapper #articles article img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid ;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article h2 {
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: rgb(64, 0, 124);
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(111, 0, 255);
+    text-decoration: none;
+    transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    
+}
+
+#wrapper #articles article p {
+    width: 80%;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+}
+
+#wrapper #articles article h2:hover {
+    color: rgb(111, 0, 255);
+    
+    
+
+}
+#wrapper #articles article a {
+    padding: 10px 5px;
+    background-color: rgb(21, 0, 54);
+    margin-left: 3%;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+} 
+
+
+#wrapper #articles article a:hover{
+    background-color: rgb(111, 0, 255);
+color: black;
+}
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
